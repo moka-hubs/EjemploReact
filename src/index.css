@@ -1,0 +1,203 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+
+body {
+  background-color: #f4e2de;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.navbar {
+  background-color: #f4e2de !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar .nav-link {
+  color: #858f94 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #d25380 !important;
+}
+
+.navbar .nav-link.active {
+  color: #d25380 !important;
+}
+
+.hero {
+  background-color: #f4e2de !important;
+}
+
+h1,
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #5d4037;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #858f94;
+}
+
+.btn {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4e2de;
+  color: #8b4513;
+  border-radius: 10px;
+  border: #8b4513 solid 2px;
+}
+
+.btn:hover {
+  background-color: #ffc0cb;
+  color: #8b4513;
+  border: #8b4513 solid 3px;
+}
+
+.btn-hero {
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.card {
+  height: auto;
+  max-width: 350px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4e2de;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.nosotros {
+  padding: 30px;
+  background-color: #ffc0cb;
+}
+
+.card-oferta {
+  margin: 50px auto;
+  border: solid 5px #5d4037;
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 10px 10px 5px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-oferta p {
+  color: #5d4037 !important;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.btn-oferta {
+  background-color: #5d4037;
+  color: #f4e2de;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-oferta:hover {
+  scale: 1.2;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+  background-color: #ffc0cb;
+  width: 100%;
+}
+
+.footer-logo img {
+  max-height: 70px;
+  width: auto;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.footer-derechos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #ffc0cb;
+}
+
+.carrito {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btn-nav {
+  border: none;
+  background-color: transparent;
+  color: #858f94;
+  font-size: 25px;
+}
+
+.btn-nav:hover {
+  scale: 1.2;
+}
+
+.modal-header {
+  background-color: #ffc0cb;
+  color: #5d4037;
+  font-family: 'Pacifico', cursive;
+}
+
+.modal-content {
+  background-color: #f4e2de;
+}
+
+.header .navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.nav-link {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
